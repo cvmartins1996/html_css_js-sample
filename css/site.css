@@ -17,11 +17,12 @@ ul{
 }
 
 header{
-	background: #35424a;
+	/*background: #35424a;*/
+	background: #009900;
 	color:#ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: #e8491d 3px solid;
+	border-bottom: #000 3px solid;
 }
 
 header a {
@@ -38,15 +39,18 @@ header li {
 header #branding {
 	float: left;
 }
-header #branding h1 {
+header #branding .titulo-principal {
 	margin: 0px;
+}
+header .titulo-principal {
+	font-size: 20px;
 }
 header nav {
 	float: right;
 	margin-top: 10px;
 }
-header .high, hedaer .current a {
-	color: #e8491d;
+header .high, header .current a {
+	color: #000;
 	font-weight: bold;
 }
 header a:hover {
@@ -56,7 +60,7 @@ header a:hover {
 
 #showcase {
 	min-height: 400px;
-	background: url('../images/nutricao.jpg') no-repeat 0px -400px;
+	background-image: url('../images/nutricao.jpg') no-repeat 0px -400px;
 	text-align: center;
 	color: #000;
 }
@@ -84,10 +88,10 @@ header a:hover {
 	width: 65px;
 }
 
-footer {
+.rodape-pagina {
+	background-color: #000;
+	color: #fff;
 	padding: 20px;
 	margin-top: 20px;
-	color: #fff;
-	background-color: #e8491d;
 	text-align: center;
 }
