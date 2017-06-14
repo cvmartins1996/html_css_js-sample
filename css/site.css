@@ -45,13 +45,28 @@ header nav {
 	float: right;
 	margin-top: 10px;
 }
-
+header .high, hedaer .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover {
+	color: #ccc;
+	font-weight: bold;
+}
 
 #showcase {
 	min-height: 400px;
-	background: url('../images/nutrição.jpg') no-repeat 0px -400px;
+	background: url('../images/nutricao.jpg') no-repeat 0px -400px;
 	text-align: center;
-	color: #fff;
+	color: #000;
+}
+#showcase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p {
+	font-size: 20px;
 }
 
 #boxes {
